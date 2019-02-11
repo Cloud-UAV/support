@@ -1,0 +1,13 @@
+[Unit]
+Description=uWSGI Python container server  
+After=network.target
+
+[Service]
+User=ubuntu  
+Group=www-data  
+WorkingDirectory=/home/ubuntu/clouduav-support  
+Environment="PATH=/home/ubuntu/clouduav-support/venv/bin"  
+ExecStart=/home/ubuntu/clouduav-support/venv/bin/uwsgi --ini clouduavapi.ini
+
+[Install]
+WantedBy=multi-user.target 
