@@ -56,12 +56,12 @@ def mpmereleasenotes():
 
 @mpme_api.route('/service/support/')
 def mpmesupport():
-    return "Support is available from the SensorUp. Please feel free to contact us on info@sensorup.com.", 200
+    return redirect('https://cloud-uav.github.io/#support')
 
 
 @mpme_api.route('/service/source/')
 def mpmesource():
-    return jsonify(error=204, text="No Content"), 204
+    return redirect('https://github.com/Cloud-UAV')
 
 
 @mpme_api.route('/service/tryme/')
