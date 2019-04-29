@@ -50,7 +50,7 @@ def releasenotes():
 
 @platform_api.route('/support/')
 def support():
-    return "Support is available from the SensorUp. Please feel free to contact us on info@sensorup.com.",200
+    return redirect('https://cloud-uav.github.io/#support')
 
 @platform_api.route('/source/')
 def source():
