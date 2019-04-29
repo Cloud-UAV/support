@@ -123,9 +123,6 @@ URI - <base>/service/stats
 ```
 
 Note:
-<https://cloud-uav-server-sta.sensorup.com>
-Username: main
-Password: ffcf2c3c-a210-53c5-81af-f31427e52d78
 
 media counts:<https://cloud-uav-server-sta.sensorup.com/v1.0/Observations>
 UAV counts: <https://cloud-uav-server-sta.sensorup.com/v1.0/Things>
