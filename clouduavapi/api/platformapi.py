@@ -54,7 +54,7 @@ def support():
 
 @platform_api.route('/source/')
 def source():
-    return jsonify(error=204, text="No Content"), 204
+    return redirect('https://github.com/Cloud-UAV/')
 
 @platform_api.route('/tryme/')
 def tryme():
