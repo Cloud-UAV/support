@@ -222,7 +222,7 @@ URI - <base>/service/factsheet
 
 ## Mission Compliance Engine
 
-`clouduav-support.sensorup.com/resources/mission-planning-and-management-engine/`
+`clouduav-support.sensorup.com/resources/mission-compliance-engine/`
 
 1.Mission Compliance Engine - Platform Info
 
@@ -230,14 +230,14 @@ URI - <base>/service/info
 
 **HTTP GET**
 
-`clouduav-support.sensorup.com/resources/mission-planning-and-management-engine/service/info/`
+`clouduav-support.sensorup.com/resources/mission-compliance-engine/service/info/`
 
 **HTTP GET**
 
 ```JSON
 {
 "name" : "Mission Compliance Engine",
-"synopsis": "The Mission Compliance Engine will be a RESTful web platform and an intuitive front-end to assist researchers in establishing and enforcing safe operating procedures and compliance workflows for Unmanned Aerial Vehicles (UAV).",
+"synopsis": "The Mission Compliance Engine is a RESTful web platform and an intuitive front-end to assist researchers in establishing and enforcing safe operating procedures and compliance workflows for Unmanned Aerial Vehicles (UAV).",
 "version" : "v1.0",
 "institution": "University of Calgary",
 "releaseTime": "2018-02-12T18:00:00Z",
@@ -251,7 +251,7 @@ URI - <base>/service/info
 
 URI - <base>/service/stats
 
-`clouduav-support.sensorup.com/resources/mission-planning-and-management-engine/service/stats/`
+`clouduav-support.sensorup.com/resources/mission-compliance-engine/service/stats/`
 
 **HTTP GET**
 
@@ -272,7 +272,7 @@ URI - <base>/service/doc
 
 **HTTP GET**
 
-`clouduav-support.sensorup.com/resources/mission-planning-and-management-engine/service/doc/`
+`clouduav-support.sensorup.com/resources/mission-compliance-engine/service/doc/`
 HTTP redirect to <https://cloud-uav.github.io>
 content type: “text/html”.
 
@@ -282,7 +282,7 @@ URI - <base>/service/releasenotes
 
 **HTTP GET**
 
-`clouduav-support.sensorup.com/resources/mission-planning-and-management-engine/service/releasenotes/`
+`clouduav-support.sensorup.com/resources/mission-compliance-engine/service/releasenotes/`
 HTTP redirect to <https://cloud-uav.github.io/#releasenotes>
 content type: "text/html"
 
@@ -292,7 +292,7 @@ URI - <base>/service/support
 
 **HTTP GET**
 
-`clouduav-support.sensorup.com/resources/mission-planning-and-management-engine/service/support/`
+`clouduav-support.sensorup.com/resources/mission-compliance-engine/service/support/`
 Support is available from the SensorUp. Please feel free to contact us on info@sensorup.com.
 
 6.Mission Compliance Engine - Platform Source Code
@@ -301,7 +301,7 @@ URI - <base>/service/source
 
 **HTTP GET**
 
-`clouduav-support.sensorup.com/resources/mission-planning-and-management-engine/service/source/`
+`clouduav-support.sensorup.com/resources/mission-compliance-engine/service/source/`
 return status code 204 (No Content)
 
 7.Mission Compliance Engine - Platform Try Me
@@ -310,7 +310,7 @@ URI - <base>/service/tryme
 
 **HTTP GET**
 
-`clouduav-support.sensorup.com/resources/mission-planning-and-management-engine/service/tryme/`
+`clouduav-support.sensorup.com/resources/mission-compliance-engine/service/tryme/`
 
 * HTTP redirect to <http://clouduav.sensorup.com/>
 * content type: "text/html"
@@ -321,7 +321,7 @@ URI - <base>/service/licence
 
 **HTTP GET**
 
-`clouduav-support.sensorup.com/resources/mission-planning-and-management-engine/service/licence/`
+`clouduav-support.sensorup.com/resources/mission-compliance-engine/service/licence/`
 
 * HTTP redirect to <https://cloud-uav.github.io/#licence>
 * content type: "text/html"
@@ -332,7 +332,7 @@ URI - <base>/service/provenance
 
 **HTTP GET**
 
-`clouduav-support.sensorup.com/resources/mission-planning-and-management-engine/service/provenance/`
+`clouduav-support.sensorup.com/resources/mission-compliance-engine/service/provenance/`
 
 * HTTP redirect to <https://cloud-uav.github.io/#provenance>
 * content type: "text/html"
@@ -343,7 +343,7 @@ URI - <base>/service/factsheet
 
 **HTTP GET**
 
-`clouduav-support.sensorup.com/resources/mission-planning-and-management-engine/service/factsheet/`
+`clouduav-support.sensorup.com/resources/mission-compliance-engine/service/factsheet/`
 
 * HTTP redirect to <https://cloud-uav.github.io/#factsheet>
 * content type: "text/html"
