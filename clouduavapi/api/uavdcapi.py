@@ -57,12 +57,12 @@ def uavdcreleasenotes():
 
 @uavdc_api.route('/service/support/')
 def uavdcsupport():
-    return "Support is available from the SensorUp. Please feel free to contact us on info@sensorup.com.", 200
+    return redirect('https://cloud-uav.github.io/#support')
 
 
 @uavdc_api.route('/service/source/')
 def uavdcsource():
-    return jsonify(error=204, text="No Content"), 204
+    return redirect('https://github.com/Cloud-UAV/')
 
 
 @uavdc_api.route('/service/tryme/')
