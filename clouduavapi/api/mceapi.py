@@ -58,12 +58,12 @@ def msereleasenotes():
 
 @mce_api.route('/service/support/')
 def msesupport():
-    return "Support is available from the SensorUp. Please feel free to contact us on info@sensorup.com.",200
+    return redirect('https://cloud-uav.github.io/#support')
 
 
 @mce_api.route('/service/source/')
 def msesource():
-    return jsonify(error=204, text="No Content"), 204
+    return redirect('https://github.com/Cloud-UAV')
 
 
 @mce_api.route('/service/tryme/')
